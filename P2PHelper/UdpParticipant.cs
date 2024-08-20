@@ -12,7 +12,7 @@ namespace P2PHelper
 {
     public class UdpParticipant : SessionParticipant
     {
-        /// <summary>
+        ///
         /// The default port to use when listening for UDP messages. 
         /// This port was chosen randomly in the ephemeral port range.
         /// </summary>
