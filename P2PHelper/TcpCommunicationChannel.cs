@@ -15,7 +15,10 @@ namespace P2PHelper
 {
     public class TcpCommunicationChannel : ICommunicationChannel
     {
-        
+        /// <summary>
+        /// The default port. 
+        /// This port was chosen randomly in the ephemeral port range.
+        /// </summary>
         private const string TCP_COMMUNICATION_PORT = "56789";
 
         /// <summary>
