@@ -143,7 +143,7 @@ namespace P2PHelper
             }
         }
     }
-
+//////
     public class DnssdParticipantInformation
     {
         public HostName Host { get; set; }
