@@ -111,6 +111,6 @@ namespace QuizGame.Model
         public bool IsGameOver { get { return this.currentQuestionIndex >= this.Questions.Count; } }
         public string Winner { get { return this.IsGameOver ? 
             this.GetResults().Aggregate((a, b) => a.Value > b.Value ? a : b).Key : null; } }
-
+// make change
     }
 }
